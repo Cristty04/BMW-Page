@@ -1,0 +1,185 @@
+*{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+header{
+width: 100%;
+height:120vh;
+background-image: url(BMWred.jpg);
+background-size: cover;
+background-repeat:no-repeat;
+position: relative;
+}
+nav {
+display:flex;
+justify-content: space-between;
+}
+nav::after{
+content:"";
+background-color:black;
+width: 73%;
+height:1px;
+position: absolute;
+top: 10%
+
+}
+ul{
+display:flex;
+}
+.nav__ul--anchors > li{
+  padding: 10px;
+  padding-left: 40px;
+  padding-bottom: 70px;
+  display: flex;
+  align-items: center;
+
+}
+
+.nav__ul--icons > li{
+  width: 10%;
+  display: flex;
+  align-items: center;
+  margin-bottom: 60px;
+}
+li img {
+max-width: 50%;
+}
+.logo{
+width: 25%;
+height: 85%;
+}
+.header_div{
+  position: absolute;
+  top: 87%;
+  color: rgb(5, 5, 7);
+  margin-left: 10px;
+}
+.header__div--button {
+  background-color: rgb(0 172 193);
+  padding-left: 35px;
+  padding-right: 45px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-left: 5px;
+  border-radius: 10px;
+  font-weight: bold;
+
+}
+p{
+  color: rgb(8, 8, 8);
+  padding-left: 10%;
+  padding-top: 5%;
+  padding-bottom: 1%;
+}
+.main__ul--cars{
+  padding-left: 11%;
+  display:flex;
+  align-items: center;  
+  color:grey;
+  justify-content: space-between;
+  padding-right: 11%;
+  
+}
+
+.cabrio{
+  color:black;
+  font-weight: bold;
+  font-size: 25px;
+  padding-right: 20px; 
+}
+
+.flexbox-container {
+  background-color: white;
+  width: 90vw;
+  min-height: 80vh;
+  border: 2px solid white;
+  padding: 20px;
+  margin: 20px auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: stretch;
+  flex-wrap: wrap;
+  gap: 20px;
+ }
+
+ #price{
+  color:grey;
+ }
+ #explored{
+  color:black;
+ }
+ .flexbox-item{
+  border: 0px solid;
+  background-color: white;
+  padding: 20px;
+  width: 225px;
+}
+
+#imgcar{
+ width: 240px;
+ height: 150px; 
+}
+.flexbox-item-item5{
+  padding-right: 68%;
+  padding-top: 1%;
+}
+
+.flexbox-container2{
+  background-color: white;
+  width: 90vw;
+  min-height: 80vh;
+  border: 2pxsolidwhite;
+  padding: 20px;
+  margin: 20pxauto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: stretch;
+  flex-wrap: wrap;
+  gap: 20px;
+ }
+ 
+
+img{
+ width: 260px;
+ height: 150px; 
+}
+
+
+.flexbox-container3{
+  background-color: white;
+  width: 120vw;
+  min-height: 120vh;
+  border: 2pxsolidwhite;
+  padding: 20px;
+  margin: 20px auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: stretch;
+  flex-wrap: wrap;
+  gap: 20px;
+ }
+ 
+ .flexbox-items-categorías{
+  border: 0px solid;
+  background-color: white;
+  padding: 5px;
+  width: 360px;
+  
+  }
+
+#cat{
+ width: 360px;
+ height: 250px; 
+}
+
+#video{
+  width: 360px;
+  height: 250px;
+}
+
+
