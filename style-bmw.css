@@ -6,12 +6,13 @@
 }
 header{
 width: 100%;
-height:120vh;
+height: 130vh;
 background-image: url(BMWred.jpg);
 background-size: cover;
 background-repeat:no-repeat;
 position: relative;
 }
+
 nav {
 display:flex;
 justify-content: space-between;
@@ -22,7 +23,7 @@ background-color:black;
 width: 73%;
 height:1px;
 position: absolute;
-top: 10%
+top: 9%
 
 }
 ul{
@@ -34,7 +35,11 @@ display:flex;
   padding-bottom: 70px;
   display: flex;
   align-items: center;
+  text-decoration: none;
 
+}
+.mod{
+  color: black;
 }
 
 .nav__ul--icons > li{
@@ -43,11 +48,24 @@ display:flex;
   align-items: center;
   margin-bottom: 60px;
 }
+
+.lupa{
+  color: black;
+}
+
+.usuario{
+  color:black;
+}
+
+.location{
+  color:black;
+}
+
 li img {
 max-width: 50%;
 }
 .logo{
-width: 25%;
+width: 22%;
 height: 85%;
 }
 .header_div{
@@ -69,6 +87,7 @@ height: 85%;
 }
 p{
   color: rgb(8, 8, 8);
+  font-weight: bold;
   padding-left: 10%;
   padding-top: 5%;
   padding-bottom: 1%;
@@ -80,23 +99,24 @@ p{
   color:grey;
   justify-content: space-between;
   padding-right: 11%;
+}
+
+.coche{
+  color: black;
+  font-weight: bold;
+}
+.coche:hover{
+  transform: scale(1,15);
   
 }
 
-.cabrio{
-  color:black;
-  font-weight: bold;
-  font-size: 25px;
-  padding-right: 20px; 
-}
-
-.flexbox-container {
+.flexbox-container1 {
   background-color: white;
   width: 90vw;
   min-height: 80vh;
   border: 2px solid white;
   padding: 20px;
-  margin: 20px auto;
+  margin: 20px ;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -105,12 +125,16 @@ p{
   gap: 20px;
  }
 
- #price{
+ .price{
   color:grey;
  }
- #explored{
+ .explored{
   color:black;
  }
+.configurar{
+  color: Black;
+}
+ 
  .flexbox-item{
   border: 0px solid;
   background-color: white;
@@ -141,9 +165,24 @@ p{
   flex-wrap: wrap;
   gap: 20px;
  }
- 
 
-img{
+.contacto{
+  color: black;
+}
+
+.wanted{
+  color:black;
+ }
+ 
+ .want{
+  color: black;
+ }
+
+ .online{
+  color: black;
+ }
+
+.imgcar{
  width: 260px;
  height: 150px; 
 }
@@ -151,15 +190,12 @@ img{
 
 .flexbox-container3{
   background-color: white;
-  width: 120vw;
-  min-height: 120vh;
-  border: 2pxsolidwhite;
-  padding: 20px;
+  width: 90vw;
+  min-height: 70vh;
+  border: 2px solid white;
   margin: 20px auto;
   display: flex;
-  flex-direction: row;
   justify-content: center;
-  align-items: stretch;
   flex-wrap: wrap;
   gap: 20px;
  }
@@ -168,18 +204,112 @@ img{
   border: 0px solid;
   background-color: white;
   padding: 5px;
-  width: 360px;
+  width: 100px;
+  margin: 0%;
   
   }
 
-#cat{
- width: 360px;
- height: 250px; 
+.info{
+  color: black;
 }
 
-#video{
-  width: 360px;
-  height: 250px;
+.cat{
+ width: 545px;
+ height: 350px; 
+
+}
+
+.video{
+  width: 545px;
+  height: 350px;
+}
+
+.flexbox-container4{
+  
+  width: 90vw;
+  min-height: 30vh;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+
+ 
+
+ }
+
+.nav__ul--icons2{
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+ 
+  
+}
+.car{
+  
+  background-color: rgb(216, 213, 213);
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 70px;
+  padding-right: 70px;
+  margin-right: 10px;
+  color:black;
+}
+
+.catalogo{
+  
+  background-color: rgb(216, 213, 213);
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 70px;
+  padding-right: 70px;
+  margin-right: 10px;
+  color: black;
+}
+.pide{
+  
+  background-color: rgb(216, 213, 213);
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 70px;
+  padding-right: 70px;
+  margin-right: 10px;
+  color: black;
+}
+.contact{
+  
+  background-color: rgb(216, 213, 213);
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 70px;
+  padding-right: 70px;
+  margin-right: 10px;
+  color: black;
 }
 
 
+.flexbox-container5 {
+  background-color: rgb(216, 213, 213);
+  width: 90vw;
+  min-height: 50vh;
+  padding: 0;
+  margin: 20px auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+   
+ }
+
+
+.flexbox-item-guia{
+  background-color: rgb(216, 213, 213);
+  margin-top: 50px;
+  width: 110px;
+  padding-right: 2%;
+  margin-left: 10px;
+ 
+ 
+}
+h6{
+  margin:6%;
+}
